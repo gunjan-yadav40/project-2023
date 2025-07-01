@@ -1,1 +1,301 @@
-<h1>gunjan yadav</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Websight</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d991b70f89.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+          <h1>Hi, I'm <span>Gunjan</span>Yadav</h1>
+          <p>Aspiring Full-Stack <br />Developer</p>
+        </div>
+      </div>
+    </div>
+    <!----------about--------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/gunjan.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              I’m a B.Tech Civil Engineering student with a strong interest in software development.
+               Currently learning full stack web development (MERN) and actively improving my DSA skills using C++.
+                I’ve built mini projects like a Weather App and Currency Converter, 
+              and I’m working toward building a full stack dynamic web application.
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Education
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Projects
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Interests</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>College name:</span><br />
+                  Motilal Nehru National Institute Of Technology
+                </li>
+                <li>
+                  <span>Degree</span><br />
+                  B.Tech in Civil Engineering
+                </li>
+                <li>
+                  <span>Duration</span><br>
+                 Aug 2023 – 2027
+                </li>
+                <li>
+                  <span>CPI</span><br />
+                  8.12 (Till Forth semester)
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>WeatherCLI</span><br />
+                  A web app that displays real-time weather information using OpenWeatherMap API.
+                </li>
+                <li>
+                  <span>CurrencyCLI</span><br />
+                   A command-line currency converter that fetches live exchange rates via API.
+                </li>
+                <li>
+                  <span>Personal Portfolio</span><br />
+                   A personal developer portfolio built with HTML, CSS, and JavaScript to showcase my skills and projects.
+                </li>
+                <li>
+                  <span>Currently Working On a Full Stack Project</span><br />
+                  
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>Problem Solving</span><br />
+                  Enjoy solving DSA problems on LeetCode and HackerRank
+                  <br>Focused on optimizing algorithms and writing clean C++ code
+                </li>
+                <li>
+                  <span>Web Devolopment</span>
+                  <br>
+                 Passionate about building full stack web applications using the MERN stack
+                 <br>Interested in creating responsive, user-friendly frontends
+                </li>
+                <li>
+                  <span> Backend & APIs</span>
+                  <br>
+                  Exploring RESTful API development with Node.js and Express
+                  <br />
+                </li>
+                <li>
+                  <span>Learning & Growth</span>
+                  <br>
+                  Curious about system design and scalable architecture<br>
+                  Actively follow tech blogs, tutorials, and new frameworks
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------survices------------>
+    <div id="Services">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+          <div>
+            
+            <h2><span>Web Development</span></h2>
+            <p>
+              Frontend:  HTML, CSS, JavaScript, React.js
+
+              <br>
+              <br>
+              Backend:   Node.js, Express.js
+              <br>
+              <br>
+
+                API Integration:  REST APIs, JSON
+                <br>
+                <br>
+
+                Tools:  Git, GitHub, Postman, VS Code
+                <br>
+                <br>
+
+                   Deployment:  Netlify, Vercel
+              
+            </p>
+            <a href="#"> Learn more</a>
+          </div>
+          <div>
+            
+            <h2> <span>Languages & Databases</span></h2>
+            <p>
+             
+              Programming Languages: C++, JavaScript (ES6+)
+              <br>
+              <br>
+
+              Database: MongoDB, SQL
+            </p>
+            <a href="#"> Learn more</a>
+          </div>
+          <div>
+           
+            <h2><span>Coursework</span></h2>
+            <p>
+              Data Structures & Algorithms (C++)
+              <br>
+              <br>
+
+               Object-Oriented Programming
+               <br>
+               <br>
+
+                Web Technologies (HTML, CSS, JavaScript, Node.js)
+                <br>
+                <br>
+
+                  Database Management Systems (DBMS)
+                 <br>
+                 <br>
+
+                    Operating Systems
+            </p>
+            <a href="#"> Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------portfolio--------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="subtitle">My Projects</h2>
+          <div class="work-list">
+            <div class="work">
+                <img src="images/bg.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quaerat, recusandae praesentium ullam
+                         repellat commodi consequatur officia id fugit nihil 
+                         tenetur adipisci voluptatem magnam rerum beatae atque numquam et quos?</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/bg.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quaerat, recusandae praesentium ullam
+                         repellat commodi consequatur officia id fugit nihil 
+                         tenetur adipisci voluptatem magnam rerum beatae atque numquam et quos?</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/bg.jpg">
+                <div class="layer">
+                    <h3>Oniline Shopping app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quaerat, recusandae praesentium ullam
+                         repellat commodi consequatur officia id fugit nihil 
+                         tenetur adipisci voluptatem magnam rerum beatae atque numquam et quos?</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!--------------------------------contact---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>yadavgunjan2027@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9335843313</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <a href="images/resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        
+  </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+    </script>
+  </body>
+</html>
