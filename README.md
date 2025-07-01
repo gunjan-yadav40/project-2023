@@ -1,4 +1,16 @@
-# project-2023
-this is my second repository and i will learn github .
+# Personal Portfolio Website
+A clean and responsive personal portfolio website to showcase my projects, skills, and achievements as a software developer. Built using HTML, CSS, and JavaScript
+
+#Features
 <br>
-#author gunjan yadav MNNIT
+About Me section
+<br>
+Skills with icons and categories (Frontend, Backend, Databases, etc.)
+<br>
+Projects with live links and GitHub buttons
+<br>
+Contact form
+<br>
+Responsive design (Mobile + Desktop friendly)
+<br>
+Resume download option
